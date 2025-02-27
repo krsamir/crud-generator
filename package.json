@@ -4,7 +4,9 @@
   "description": "crud generator",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node app/index.js",
+    "build": "tsc",
+    "dev": "tsx watch index.ts"
   },
   "repository": {
     "type": "git",
@@ -24,5 +26,10 @@
   "bugs": {
     "url": "https://github.com/krsamir/crud-generator/issues"
   },
-  "homepage": "https://github.com/krsamir/crud-generator#readme"
+  "homepage": "https://github.com/krsamir/crud-generator#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
 }
